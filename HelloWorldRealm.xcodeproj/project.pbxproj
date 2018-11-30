@@ -10,20 +10,24 @@
 		5C313A3221B0E2F20043D61D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C313A3121B0E2F20043D61D /* AppDelegate.swift */; };
 		5C313A3421B0E2F20043D61D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C313A3321B0E2F20043D61D /* ViewController.swift */; };
 		5C313A3721B0E2F20043D61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C313A3521B0E2F20043D61D /* Main.storyboard */; };
-		5C313A3A21B0E2F20043D61D /* HelloWorldRealm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C313A3821B0E2F20043D61D /* HelloWorldRealm.xcdatamodeld */; };
 		5C313A3C21B0E2F50043D61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C313A3B21B0E2F50043D61D /* Assets.xcassets */; };
 		5C313A3F21B0E2F50043D61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C313A3D21B0E2F50043D61D /* LaunchScreen.storyboard */; };
+		5C313A4721B0E8050043D61D /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C313A4621B0E8050043D61D /* Example.swift */; };
+		D66082C8B90B386B2778AAB2 /* Pods_HelloWorldRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579DCF1E1B7E8AE2F8D5778A /* Pods_HelloWorldRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37AB023354D9170EC7BA32D3 /* Pods-HelloWorldRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldRealm/Pods-HelloWorldRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		579DCF1E1B7E8AE2F8D5778A /* Pods_HelloWorldRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C313A2E21B0E2F20043D61D /* HelloWorldRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C313A3121B0E2F20043D61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C313A3321B0E2F20043D61D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C313A3621B0E2F20043D61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C313A3921B0E2F20043D61D /* HelloWorldRealm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorldRealm.xcdatamodel; sourceTree = "<group>"; };
 		5C313A3B21B0E2F50043D61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C313A3E21B0E2F50043D61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C313A4021B0E2F50043D61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C313A4621B0E8050043D61D /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		83E7CDA66208D64F8E372408 /* Pods-HelloWorldRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldRealm/Pods-HelloWorldRealm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66082C8B90B386B2778AAB2 /* Pods_HelloWorldRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44735F0CBFA55FF9FAF048AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579DCF1E1B7E8AE2F8D5778A /* Pods_HelloWorldRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C313A2521B0E2F20043D61D = {
 			isa = PBXGroup;
 			children = (
 				5C313A3021B0E2F20043D61D /* HelloWorldRealm */,
 				5C313A2F21B0E2F20043D61D /* Products */,
+				6FC566EA722BBA617BED1BB2 /* Pods */,
+				44735F0CBFA55FF9FAF048AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +74,21 @@
 				5C313A3121B0E2F20043D61D /* AppDelegate.swift */,
 				5C313A3321B0E2F20043D61D /* ViewController.swift */,
 				5C313A3521B0E2F20043D61D /* Main.storyboard */,
+				5C313A4621B0E8050043D61D /* Example.swift */,
 				5C313A3B21B0E2F50043D61D /* Assets.xcassets */,
 				5C313A3D21B0E2F50043D61D /* LaunchScreen.storyboard */,
 				5C313A4021B0E2F50043D61D /* Info.plist */,
-				5C313A3821B0E2F20043D61D /* HelloWorldRealm.xcdatamodeld */,
 			);
 			path = HelloWorldRealm;
+			sourceTree = "<group>";
+		};
+		6FC566EA722BBA617BED1BB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37AB023354D9170EC7BA32D3 /* Pods-HelloWorldRealm.debug.xcconfig */,
+				83E7CDA66208D64F8E372408 /* Pods-HelloWorldRealm.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C313A4321B0E2F50043D61D /* Build configuration list for PBXNativeTarget "HelloWorldRealm" */;
 			buildPhases = (
+				2F7840D4880C1EF925692048 /* [CP] Check Pods Manifest.lock */,
 				5C313A2A21B0E2F20043D61D /* Sources */,
 				5C313A2B21B0E2F20043D61D /* Frameworks */,
 				5C313A2C21B0E2F20043D61D /* Resources */,
+				7D0669D23C342A8E13FBC547 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +159,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F7840D4880C1EF925692048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0669D23C342A8E13FBC547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldRealm/Pods-HelloWorldRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldRealm/Pods-HelloWorldRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C313A2A21B0E2F20043D61D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5C313A3421B0E2F20043D61D /* ViewController.swift in Sources */,
-				5C313A3A21B0E2F20043D61D /* HelloWorldRealm.xcdatamodeld in Sources */,
 				5C313A3221B0E2F20043D61D /* AppDelegate.swift in Sources */,
+				5C313A4721B0E8050043D61D /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +351,7 @@
 		};
 		5C313A4421B0E2F50043D61D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AB023354D9170EC7BA32D3 /* Pods-HelloWorldRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +370,7 @@
 		};
 		5C313A4521B0E2F50043D61D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E7CDA66208D64F8E372408 /* Pods-HelloWorldRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,19 +409,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5C313A3821B0E2F20043D61D /* HelloWorldRealm.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5C313A3921B0E2F20043D61D /* HelloWorldRealm.xcdatamodel */,
-			);
-			currentVersion = 5C313A3921B0E2F20043D61D /* HelloWorldRealm.xcdatamodel */;
-			path = HelloWorldRealm.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5C313A2621B0E2F20043D61D /* Project object */;
 }
